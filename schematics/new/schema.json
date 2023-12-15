@@ -1,0 +1,16 @@
+{
+  "properties": {
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "default": "app",
+      "x-prompt": "Defina o Nome da Aplicação?"
+    },
+    "group": {
+      "type": "string",
+      "minLength": 1,
+      "default": "com.example",
+      "x-prompt": "Defina o Group_id da Aplicação?"
+    }
+  }
+}

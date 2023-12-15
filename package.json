@@ -1,0 +1,27 @@
+{
+  "name": "ignite",
+  "version": "0.0.0",
+  "description": "A blank schematics",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && jasmine schematics/**/*_spec.js",
+    "package": "tsc -p tsconfig.json & npm pack"
+  },
+  "keywords": [
+    "schematics"
+  ],
+  "author": "",
+  "license": "MIT",
+  "schematics": "./schematics/collection.json",
+  "dependencies": {
+    "@angular-devkit/core": "^17.0.7",
+    "@angular-devkit/schematics": "^17.0.7",
+    "ignite": "file:ignite-0.0.0.tgz",
+    "typescript": "~5.2.2"
+  },
+  "devDependencies": {
+    "@types/jasmine": "~5.1.0",
+    "@types/node": "^18.18.0",
+    "jasmine": "^5.0.0"
+  }
+}

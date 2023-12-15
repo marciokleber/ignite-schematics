@@ -1,0 +1,15 @@
+{
+  "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
+  "schematics": {
+    "ignite": {
+      "description": "A blank schematic.",
+      "factory": "./ignite/index#ignite"
+    },
+    "new": {
+      "schema": "./new/schema.json",
+      "description": "A new schematic.",
+      "factory": "./new/index#_new"
+
+    }
+  }
+}
